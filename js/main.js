@@ -5,3 +5,7 @@
 import prompt  from "async-prompt"
 import {sumarRango} from "./modules/sumarRangoNumeros.js"
 
+let input = await prompt("prueba: ")
+console.log(input)
+
+console.log(sumarRango(1,10))
